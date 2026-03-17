@@ -1,20 +1,17 @@
 void main() {
   printName();
-  printName2("Angel");
+  printName2("Jonathan");
   int num1 = 10;
   int num2 = 20;
-  int num3 = 5;
-  int num4 = 4;
   add(num1, num2);
   String name = ministro();
   print("El nombre del ministro es: $name");
 
-  int total = sumas(num3, num4);
-  print("La suma es $total");
+
 }
 
 void printName() {
-  print("My name is Angel");
+  print("My name is Jonathan");
 }
 
 void printName2(String name) {
